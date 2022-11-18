@@ -53,7 +53,7 @@ Winget uninstall --id 9NBLGGH2W953 -h
 Winget uninstall --id 9NBLGGH4SDSQ -h
 Get-AppxPackage DellInc.DellDigitalDelivery | Remove-AppxPackage -Allusers
 Get-AppxPackage Dell.CommandUpdate.Universal | Remove-AppxPackage -AllUsers
-Get-AppxPackage DellInc.DellSupportAssistforPCs | Remove-AppxPackage -AlUsers
+Get-AppxPackage DellInc.DellSupportAssistforPCs | Remove-AppxPackage -AllUsers
 
 uninstall-Package -name "ExpressConnect Drivers & Services" -allversions -force
 uninstall-Package -name "Dell Optimizer service" -allversions -force
