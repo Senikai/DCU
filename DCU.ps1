@@ -13,51 +13,51 @@ $ResolveWingetPath = Resolve-Path "C:\Program Files\WindowsApps\Microsoft.Deskto
 $Wingetpath = Split-Path -Path $WingetPath -Parent
 cd $wingetpath
 #Dell SupportAssist                        
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id "{425786D5-8047-4CB6-AE91-0EE67BD829F8}" -h         
+.\winget.exe uninstall --accept-source-agreements --id  "{425786D5-8047-4CB6-AE91-0EE67BD829F8}" -h         
 #Dell Command | Update for Windows Universâ€¦ 
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --name Dell.CommandUpdate.Universal -h
+.\winget.exe uninstall --accept-source-agreements --name Dell.CommandUpdate.Universal -h
 #Dell SupportAssist OS Recovery Plugin forâ€¦
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id "{dc44ee3f-d6c1-444d-a660-b0f1ac90b51d}" -h          
+.\winget.exe uninstall --accept-source-agreements --id "{dc44ee3f-d6c1-444d-a660-b0f1ac90b51d}" -h          
 #Dell Digital Delivery Services             
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id "{E530ABB7-9DCC-421B-B751-484375E8374A}" -h                             
+.\winget.exe uninstall --accept-source-agreements --id "{E530ABB7-9DCC-421B-B751-484375E8374A}" -h                             
 #Dell SupportAssist for Home PCs            
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id DellInc.DellSupportAssistforPCs_htrsf667h5â€ -h             
+.\winget.exe uninstall --accept-source-agreements --id DellInc.DellSupportAssistforPCs_htrsf667h5â€ -h             
 #Dell Digital Delivery                      
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id DellInc.DellDigitalDelivery_htrsf667h5kn2 -h
+.\winget.exe uninstall --accept-source-agreements --id DellInc.DellDigitalDelivery_htrsf667h5kn2 -h
 #Dell Command | Update                      
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id DellInc.DellCommandUpdate_htrsf667h5kn2 -h
+.\winget.exe uninstall --accept-source-agreements --id DellInc.DellCommandUpdate_htrsf667h5kn2 -h
 #MyDell
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id 9PN7T3JFPRZ6 -h
+.\winget.exe uninstall --accept-source-agreements --id 9PN7T3JFPRZ6 -h
 #AccuWeather for Dell                        
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id 9WZDNCRFJCQ5 -h
+.\winget.exe uninstall --accept-source-agreements --id 9WZDNCRFJCQ5 -h
 #Dell Digital Delivery                       
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id 9PPRLNT023WC -h
+.\winget.exe uninstall --accept-source-agreements --id 9PPRLNT023WC -h
 #Media Suite Essentials for Dell             
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id 9NN8BSS5N72F -h
+.\winget.exe uninstall --accept-source-agreements --id 9NN8BSS5N72F -h
 #Dell Customer Connect                       
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id 9NF0GGQ5S6QX -h
+.\winget.exe uninstall --accept-source-agreements --id 9NF0GGQ5S6QX -h
 #Dell Product Registration
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id 9PL4GNMVS4WD -h
+.\winget.exe uninstall --accept-source-agreements --id 9PL4GNMVS4WD -h
 #Mobile Solution â€“ Dell Enterprise
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id 9NBLGGH11HWM -h
+.\winget.exe uninstall --accept-source-agreements --id 9NBLGGH11HWM -h
 #Dell Precision Optimizer                    
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id 9N1QQJNSQMKT -h                 
+.\winget.exe uninstall --accept-source-agreements --id 9N1QQJNSQMKT -h                 
 #Dell NetReady                               
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id 9NBLGGGZ5ZB1 -h                 
+.\winget.exe uninstall --accept-source-agreements --id 9NBLGGGZ5ZB1 -h                 
 #Dell Universal Receiver Control Panel       
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id 9PNBLWNZ0CV5 -h                 
+.\winget.exe uninstall --accept-source-agreements --id 9PNBLWNZ0CV5 -h                 
 #Dell CinemaColor                            
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id 9NRBZ5ZFDV61 -h                 
+.\winget.exe uninstall --accept-source-agreements --id 9NRBZ5ZFDV61 -h                 
 #Dell Visor                                  
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id 9N1C1P629DR9  -h                 
+.\winget.exe uninstall --accept-source-agreements --id 9N1C1P629DR9  -h                 
 #Dell Display Manager                        
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id 9PLNC7BX90D4 -h                
+.\winget.exe uninstall --accept-source-agreements --id 9PLNC7BX90D4 -h                
 #Dell PremierColor                           
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id 9N9PJGJG009k -h             
+.\winget.exe uninstall --accept-source-agreements --id 9N9PJGJG009k -h             
 #Dell Liberty                                
-.\winget.exe--accept-source-agreements --accept-package-agreements  uninstall --id 9NBLGGH2W953 -h                 
+.\winget.exe  uninstall --accept-source-agreements --id 9NBLGGH2W953 -h                 
 #Dell Education Data Management Demo         
-.\winget.exe--accept-source-agreements --accept-package-agreements uninstall --id 9NBLGGH4SDSQ -h
+.\winget.exe uninstall --accept-source-agreements --id 9NBLGGH4SDSQ -h
 
 winget source reset msstore
 Get-AppxPackage DellInc.DellDigitalDelivery | Remove-AppxPackage -Allusers
