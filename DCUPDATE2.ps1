@@ -15,6 +15,7 @@ Start-Process "C:\Program Files\Dell\CommandUpdate\dcu-cli.exe" -Argumentlist '/
 Start-Process "C:\Program Files\Dell\CommandUpdate\dcu-cli.exe" -Argumentlist '/configure -biosPassword="D35kt0p1!"'-WindowStyle hidden -wait
 Start-Process "C:\Program Files\Dell\CommandUpdate\dcu-cli.exe" -Argumentlist '/configure -scheduleAction=DownloadInstallAndNotify'-WindowStyle hidden -wait
 Start-Process "C:\Program Files\Dell\CommandUpdate\dcu-cli.exe" -Argumentlist '/configure -reboot=disable'-WindowStyle hidden -wait
+Start-Process "C:\Program Files\Dell\CommandUpdate\dcu-cli.exe" -argumentlist '/configure -updateSeverity=Security,Critical,Recommended'-WindowStyle hidden -wait
 Start-Process "C:\Program Files\Dell\CommandUpdate\dcu-cli.exe" -Argumentlist '/configure -scheduleWeekly=Tue,13:45'-WindowStyle hidden -wait
 Start-Process "C:\Program Files\Dell\CommandUpdate\dcu-cli.exe" -Argumentlist '/configure -updatesNotification=Disable'-WindowStyle hidden -Wait
 Start-Process "C:\Program Files\Dell\CommandUpdate\dcu-cli.exe" -Argumentlist '/configure -userConsent=disable'-WindowStyle hidden -wait
@@ -34,6 +35,7 @@ Start-Process "C:\Program Files (x86)\Dell\CommandUpdate\dcu-cli.exe" -Argumentl
 Start-Process "C:\Program Files (x86)\Dell\CommandUpdate\dcu-cli.exe" -Argumentlist '/configure -userConsent=disable'-WindowStyle hidden -wait
 Start-Process "C:\Program Files (x86)\Dell\CommandUpdate\dcu-cli.exe" -Argumentlist '/configure -autoSuspendBitLocker=enable'-WindowStyle hidden -wait
 Start-Process "C:\Program Files (x86)\Dell\CommandUpdate\dcu-cli.exe" -Argumentlist '/configure -silent -lockSettings=enable'-WindowStyle hidden -wait
+Start-Process "C:\Program Files (x86)\Dell\CommandUpdate\dcu-cli.exe" -argumentlist '/configure -updateSeverity=Security,Critical,Recommended'-WindowStyle hidden -wait
 
 Write-Output "Worked 86"
 }
